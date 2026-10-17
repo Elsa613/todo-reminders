@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 5
     defaults:
       run:
-        working-directory: functions
+        working-directory: .github/workflows/functions
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
